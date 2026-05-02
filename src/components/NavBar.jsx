@@ -1,5 +1,6 @@
 import { useState } from 'react';
 
+
 const Navbar = ({ isDark, toggleTheme }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
