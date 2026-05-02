@@ -1,0 +1,34 @@
+import { portfolioData } from '../data/portfolioData';
+
+const About = () => {
+  return (
+    <section id="about" className="section">
+      <p className="section-label">01 — About</p>
+      <h2 className="section-title">The person behind the <em>code</em></h2>
+      <div className="section-rule"></div>
+      <div className="about-grid">
+        <div style={{ position: 'relative' }}>
+          <div className="avatar-box">
+            <span className="avatar-init">{portfolioData.profile.initials}</span>
+          </div>
+          <div className="av-badge">{portfolioData.profile.badge}</div>
+        </div>
+        <div className="about-body">
+          <p>Hi, I'm <strong>{portfolioData.profile.firstName} {portfolioData.profile.lastName}</strong> — a Computer Science postgraduate student from St. Xavier's College, Palayamkottai, with a deep love for building backend systems that are robust, secure, and beautifully structured.</p>
+          <p>My primary expertise lies in <strong>Java (Spring Boot)</strong> and <strong>Python (Django)</strong>, where I've built everything from microservices-based API gateways to full-stack e-learning platforms. I care deeply about clean architecture, RESTful design, and writing code that is maintainable at scale.</p>
+          <p>I'm actively seeking software engineering roles where I can contribute meaningfully, continue growing, and collaborate with teams that value craft and quality.</p>
+          <div className="stats">
+            {portfolioData.profile.stats.map((stat, index) => (
+              <div key={index}>
+                <div className="stat-n">{stat.number}</div>
+                <div className="stat-l">{stat.label}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default About;
