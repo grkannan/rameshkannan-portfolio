@@ -14,11 +14,11 @@ const Skills = () => {
               <div key={sIndex} className="sk-item">
                 <div className="sk-row">
                   <span className="sk-name">{skill.name}</span>
-                  <span className="sk-pct">{skill.level}</span>
+                  {/* <span className="sk-pct">{skill.level}</span> */}
                 </div>
-                <div className="sk-bar">
+                {/* <div className="sk-bar">
                   <div className="sk-fill" style={{ width: skill.level }}></div>
-                </div>
+                </div> */}
               </div>
             ))}
           </div>

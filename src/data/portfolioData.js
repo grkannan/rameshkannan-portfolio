@@ -3,12 +3,13 @@ export const portfolioData = {
     firstName: "Ramesh",
     lastName: "Kannan G",
     initials: "RK",
+    image: "/avatar.jpg",
     badge: "🎓 M.Sc. CS · 2026",
     role: "Aspiring Software Engineer",
     tagline: "Aspiring Software Engineer crafting scalable backend systems & elegant web applications with Java, Python, and a passion for clean architecture.",
     stats: [
-      { number: "3+", label: "Projects Built" },
-      { number: "10+", label: "REST APIs" },
+      { number: "5+", label: "Projects Built" },
+      { number: "25+", label: "REST APIs" },
       { number: "35", label: "Days Interned" }
     ],
     contact: {
@@ -25,7 +26,9 @@ export const portfolioData = {
         { name: "Java", level: "85%" },
         { name: "Python", level: "82%" },
         { name: "JavaScript", level: "78%" },
-        { name: "C / C++", level: "70%" }
+        { name: "C++", level: "78%" },
+
+        { name: "C", level: "70%" }
       ]
     },
     {
@@ -34,7 +37,9 @@ export const portfolioData = {
         { name: "Spring Boot", level: "82%" },
         { name: "Django / DRF", level: "84%" },
         { name: "React", level: "75%" },
-        { name: "Laravel", level: "65%" }
+        { name: "Laravel", level: "65%" },
+        { name: "Bootstrap", level: ""},
+        { name: "REST APIs", level: "88%" },
       ]
     },
     {
@@ -43,13 +48,13 @@ export const portfolioData = {
         { name: "PostgreSQL", level: "80%" },
         { name: "MySQL", level: "76%" },
         { name: "MongoDB", level: "68%" },
-        { name: "Docker & Git", level: "72%" }
+        { name: "Docker & Git", level: "72%" },
+        { name: "Github Actions", level: "65%" }
       ]
     },
     {
       category: "Concepts",
       items: [
-        { name: "REST APIs", level: "88%" },
         { name: "Microservices", level: "78%" },
         { name: "OOP & DSA", level: "85%" },
         { name: "JWT / Auth", level: "82%" }
@@ -64,7 +69,8 @@ export const portfolioData = {
       icon: "🔐",
       iconBg: "#e4eff8",
       desc: "Microservices-based API Gateway handling 10+ REST endpoints with JWT authentication, RBAC, and centralized routing — improving request efficiency by ~30%.",
-      tech: ["Spring Boot", "JWT", "REST", "PostgreSQL", "Docker"]
+      tech: ["Spring Boot", "JWT", "REST", "PostgreSQL", "Docker"],
+      link: "",
     },
     {
       id: 2,
@@ -73,7 +79,8 @@ export const portfolioData = {
       icon: "📚",
       iconBg: "#e8f4f0",
       desc: "Full-stack e-learning platform with 3 user roles, 10+ REST APIs, JWT auth, course enrollment, progress tracking, and a responsive React frontend.",
-      tech: ["React", "Django REST", "PostgreSQL", "JWT"]
+      tech: ["React", "Django REST", "PostgreSQL", "JWT"],
+      link: ""
     },
     {
       id: 3,
@@ -82,7 +89,18 @@ export const portfolioData = {
       icon: "🗳️",
       iconBg: "#f5e8e4",
       desc: "Role-based voting portal with registration, session handling, and admin controls. Tested by 50 users — 90% satisfaction, delivered 15 days ahead of schedule.",
-      tech: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"]
+      tech: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+      link: ""
+    },
+    {
+      id: 4,
+      title: "Content Based Movie Recommendation System",
+      tag: "Python · Data Mining",
+      icon: "🎬",
+      iconBg: "#f0e4f0",
+      desc: "A recommendation system that suggests movies based on user preferences and content similarity using collaborative and content-based filtering techniques.",
+      tech: ["Python", "Pandas", "NumPy", "Scikit-learn", "Streamlit", "GitHub"],
+       link: ""
     }
   ],
   experience: [
