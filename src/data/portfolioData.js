@@ -6,7 +6,8 @@ export const portfolioData = {
     image: "/avatar.jpg",
     badge: "🎓 M.Sc. CS · 2026",
     role: "Aspiring Software Engineer",
-    tagline: "Aspiring Software Engineer crafting scalable backend systems & elegant web applications with Java, Python, and a passion for clean architecture.",
+    tagline:
+      "Aspiring Software Engineer crafting scalable backend systems & elegant web applications with Java, Python, and a passion for clean architecture.",
     stats: [
       { number: "5+", label: "Projects Built" },
       { number: "25+", label: "REST APIs" },
@@ -27,7 +28,6 @@ export const portfolioData = {
         { name: "Python", level: "82%" },
         { name: "JavaScript", level: "78%" },
         { name: "C++", level: "78%" },
-
         { name: "C", level: "70%" }
       ]
     },
@@ -38,8 +38,8 @@ export const portfolioData = {
         { name: "Django / DRF", level: "84%" },
         { name: "React", level: "75%" },
         { name: "Laravel", level: "65%" },
-        { name: "Bootstrap", level: ""},
-        { name: "REST APIs", level: "88%" },
+        { name: "Bootstrap", level: "" },
+        { name: "REST APIs", level: "88%" }
       ]
     },
     {
@@ -70,7 +70,7 @@ export const portfolioData = {
       iconBg: "#e4eff8",
       desc: "Microservices-based API Gateway handling 10+ REST endpoints with JWT authentication, RBAC, and centralized routing — improving request efficiency by ~30%.",
       tech: ["Spring Boot", "JWT", "REST", "PostgreSQL", "Docker"],
-      link: "",
+      link: ""
     },
     {
       id: 2,
@@ -100,7 +100,7 @@ export const portfolioData = {
       iconBg: "#f0e4f0",
       desc: "A recommendation system that suggests movies based on user preferences and content similarity using collaborative and content-based filtering techniques.",
       tech: ["Python", "Pandas", "NumPy", "Scikit-learn", "Streamlit", "GitHub"],
-       link: ""
+      link: ""
     }
   ],
   experience: [
@@ -131,5 +131,10 @@ export const portfolioData = {
       place: "St. Xavier's College, Palayamkottai · CGPA: 6.8",
       desc: "Undergraduate studies covering data structures, algorithms, OOP, and database management systems."
     }
-  ]
+  ],
+  resume: {
+    // File exists at /public/RameshKannan_G.pdf
+    url: "/RameshKannan_G.pdf"
+  }
 };
+

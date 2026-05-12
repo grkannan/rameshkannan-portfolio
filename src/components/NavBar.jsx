@@ -22,6 +22,7 @@ const Navbar = ({ isDark, toggleTheme }) => {
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#experience">Journey</a></li>
+          <li><a href="#resume">Resume</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <button className="dark-toggle desktop-toggle" onClick={toggleTheme}>

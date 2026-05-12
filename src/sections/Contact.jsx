@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { portfolioData } from '../data/portfolioData';
+import { sendContactEmail } from '../emailjs';
+
 
 const Contact = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -9,12 +11,19 @@ const Contact = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (!formData.name || !formData.email || !formData.subject || !formData.message) return;
-    // Here you would connect to EmailJS or your backend
-    setIsSubmitted(true);
+
+    try {
+      await sendContactEmail(formData);
+      setIsSubmitted(true);
+    } catch (err) {
+      console.error('EmailJS send failed:', err);
+      alert('Could not send message. Please check EmailJS configuration (service/template/user id).');
+    }
   };
+
 
   const { contact } = portfolioData.profile;
 
