@@ -25,8 +25,8 @@ const About = () => {
         </div>
         <div className="about-body">
           <p>Hi, I'm <strong>{profile.firstName} {profile.lastName}</strong> — a Computer Science postgraduate student from St. Xavier's College, Palayamkottai, with a deep love for building backend systems.</p>
-          <p>My primary expertise lies in <strong>Java (Spring Boot)</strong> and <strong>Python (Django)</strong>, where I've built everything from microservices-based API gateways to full-stack e-learning platforms[cite: 1].</p>
-          <p>I'm actively seeking software engineering roles where I can contribute meaningfully, continue growing, and collaborate with teams that value craft and quality[cite: 1].</p>
+          <p>My primary expertise lies in <strong>Java (Spring Boot)</strong> and <strong>Python (Django)</strong>, where I've built everything from microservices-based API gateways to full-stack e-learning platforms.</p>
+          <p>I'm actively seeking software engineering roles where I can contribute meaningfully, continue growing, and collaborate with teams that value craft and quality.</p>
           <div className="stats">
             {profile.stats.map((stat, index) => (
               <div key={index}>
