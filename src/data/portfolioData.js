@@ -110,7 +110,7 @@ export const portfolioData = {
       type: "Education",
       badgeClass: "be",
       title: "M.Sc. Computer Science",
-      place: "St. Xavier's College, Palayamkottai · CGPA: 7.4*",
+      place: "St. Xavier's College, Palayamkottai · CGPA: 7.8",
       desc: "Pursuing a Master's degree focused on advanced algorithms, distributed systems, and full-stack development."
     },
     {
