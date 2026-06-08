@@ -70,7 +70,7 @@ export const portfolioData = {
       iconBg: "#e4eff8",
       desc: "Microservices-based API Gateway handling 10+ REST endpoints with JWT authentication, RBAC, and centralized routing — improving request efficiency by ~30%.",
       tech: ["Spring Boot", "JWT", "REST", "PostgreSQL", "Docker"],
-      link: ""
+      link: "https://github.com/grkannan/gatex-gateway.git"
     },
     {
       id: 2,
@@ -80,7 +80,7 @@ export const portfolioData = {
       iconBg: "#e8f4f0",
       desc: "Full-stack e-learning platform with 3 user roles, 10+ REST APIs, JWT auth, course enrollment, progress tracking, and a responsive React frontend.",
       tech: ["React", "Django REST", "PostgreSQL", "JWT"],
-      link: ""
+      link: "https://github.com/grkannan/E-Learning-Platform-API.git"
     },
     {
       id: 3,
@@ -90,7 +90,7 @@ export const portfolioData = {
       iconBg: "#f5e8e4",
       desc: "Role-based voting portal with registration, session handling, and admin controls. Tested by 50 users — 90% satisfaction, delivered 15 days ahead of schedule.",
       tech: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-      link: ""
+      link: "https://github.com/grkannan/"
     },
     {
       id: 4,
@@ -100,7 +100,7 @@ export const portfolioData = {
       iconBg: "#f0e4f0",
       desc: "A recommendation system that suggests movies based on user preferences and content similarity using collaborative and content-based filtering techniques.",
       tech: ["Python", "Pandas", "NumPy", "Scikit-learn", "Streamlit", "GitHub"],
-      link: ""
+      link: "https://github.com/grkannan/CBMRSAPP.git"
     }
   ],
   experience: [
@@ -115,7 +115,7 @@ export const portfolioData = {
     },
     {
       id: 2,
-      years: "2024",
+      years: "2025",
       type: "Experience",
       badgeClass: "bw",
       title: "Python Full-Stack Intern",
@@ -134,7 +134,8 @@ export const portfolioData = {
   ],
   resume: {
     // File exists at /public/RameshKannan_G.pdf
-    url: "/RameshKannan_G.pdf"
+    url: "/RameshKannan_G.pdf",
+
   }
 };
 
